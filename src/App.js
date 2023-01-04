@@ -8,7 +8,7 @@ import Navbar from "./Components/Navbar";
 import Works from "./Components/Works";
 function App() {
   return (
-    <div className="App">
+    <div className="App overflow-x-hidden">
       <Navbar/>
     
       

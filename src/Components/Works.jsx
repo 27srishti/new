@@ -1,12 +1,25 @@
 import React from "react";
 import Image4 from "../Images/Image4.png"
+import { useState } from "react";
+import { motion, useAnimation } from "framer-motion";
+import { Transition } from "@headlessui/react";
 const Works = () => {
   return (
     <div>
     <div  className="bg-gray-100  ">
       <div className="py-16 px-14 mx-auto max-w-screen-xl font-Poppins lg:py-20 lg:px-16  sm:px-14 ">
         <div className="mx-auto md:px-7  text-left mb-8  lg:mb-12">
-          <h2 className="mb-2 text-3xl md:text-5xl  sm:text-4xl tracking-tight font-medium text-gray-900">
+          
+        <motion.div
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true, amount: 0.5 }}
+                  transition={{ delay:0.5, duration: 3, type: "spring" }}
+                  variants={{
+                    hidden: { opacity: 0, x: 150 },
+                    visible: { opacity: 1, x: 0 },
+                  }}
+                ><h2 className="mb-2 text-3xl md:text-5xl  sm:text-4xl tracking-tight font-medium text-gray-900">
             ZERO fees from Influencers
             <p className="text-violet-500 md:py-3 font-extrabold">
               until you earn{" "}
@@ -15,12 +28,23 @@ const Works = () => {
               </span>{" "}
             </p>
           </h2>
-
+          </motion.div>
+          <motion.div
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true, amount: 0.5 }}
+                  transition={{ delay: 0.5, duration: 10, type: "spring" }}
+                  variants={{
+                    hidden: { opacity: 0, x: 0 },
+                    visible: { opacity: 1, x: 0 },
+                  }}
+                >
           <p className="mb-5 py-3 font-light text-gray-700 md:text-md text-base ">
             Your success is our success. As a guarantee that we can make you
             successful as an influencer, we don’t charge you until you succeed.
             Unlike other agencies, we put your interest above our own
           </p>
+          </motion.div>
           <div></div>
           
         </div>
@@ -47,7 +71,18 @@ const Works = () => {
                       <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
                     </svg>
                   </div>
+                  <motion.div
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.5 }}
+                transition={{ delay: 0.6, duration: 2, type: "spring" }}
+                variants={{
+                  hidden: { opacity: 0, y: 150 },
+                  visible: { opacity: 1, y: 0 },
+                }}
+              >
                   <div className="flex-grow pl-4">
+                    
                     <h2 className="font-bold title-font text-sm  text-gray-900 mb-1 tracking-wider">
                       STEP 1
                     </h2>
@@ -56,6 +91,7 @@ const Works = () => {
                       (Your face is not your fate!)
                     </p>
                   </div>
+                  </motion.div>
                 </div>
                 <div className="flex relative pb-12">
                   <div className="h-full w-10 absolute inset-0 flex items-center justify-center">
@@ -74,6 +110,16 @@ const Works = () => {
                       <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
                     </svg>
                   </div>
+                  <motion.div
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.5 }}
+                transition={{ delay: 0.7, duration: 2, type: "spring" }}
+                variants={{
+                  hidden: { opacity: 0, y: 150 },
+                  visible: { opacity: 1, y: 0 },
+                }}
+              >
                   <div className="flex-grow pl-4">
                     <h2 className="font-bold title-font text-sm text-gray-900 mb-1 tracking-wider">
                       STEP 2
@@ -82,7 +128,7 @@ const Works = () => {
                       Our campaign team will scan your applications and have a
                       chat with you.
                     </p>
-                  </div>
+                  </div></motion.div>
                 </div>
                 <div className="flex relative pb-12">
                   <div className="h-full w-10 absolute inset-0 flex items-center justify-center">
@@ -102,6 +148,16 @@ const Works = () => {
                       <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3" />
                     </svg>
                   </div>
+                  <motion.div
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.5 }}
+                transition={{ delay: 0.7, duration: 2.5, type: "spring" }}
+                variants={{
+                  hidden: { opacity: 0, y: 150 },
+                  visible: { opacity: 1, y: 0 },
+                }}
+              >
                   <div className="flex-grow pl-4">
                     <h2 className="font-bold title-font text-sm text-gray-900 mb-1 tracking-wider">
                       STEP 3
@@ -111,8 +167,10 @@ const Works = () => {
                       clients for you.
                     </p>
                   </div>
+                  </motion.div>
                 </div>
               </div>
+              
               <img
                 className="lg:w-3/5 md:w-1/2  object-cover object-center rounded-lg md:mt-0 mt-12"
                 src={Image4}

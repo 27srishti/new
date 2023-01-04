@@ -1,19 +1,35 @@
 import React from "react";
-
+import { useState } from "react";
+import { motion, useAnimation } from "framer-motion";
+import { Transition } from "@headlessui/react";
 function Navbar() {
   return (
     <nav className=" border-gray-700 px-2   py-6 ">
       <div className="container flex flex-wrap  items-center justify-between mx-auto px-5 ">
+      <motion.div
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true, amount: 0.5 }}
+                  transition={{ delay: 0.6, duration: 2, type: "spring" }}
+                  variants={{
+                    hidden: { opacity: 0, x: -180 },
+                    visible: { opacity: 1, x: 0 },
+                  }}
+                >
         <a href="" className="flex items-center">
           {/* <img
             src="https://jjjflowbite.com/docs/images/logo.svg"
             className="h-6 mr-3 sm:h-9"
             alt="Flowbite Logo"
           /> */}
+            
+
           <span className="self-center text-4xl font-bold whitespace-nowrap text-violet-400">
            Logo
           </span>
+          
         </a>
+        </motion.div>
         <button
           data-collapse-toggle="navbar-default"
           type="button"
@@ -39,6 +55,16 @@ function Navbar() {
         <div className="hidden w-full md:block md:w-auto" id="navbar-default">
           <ul className="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:text-lg font-Poppins lg:text-base md:font-medium md:border-0 ">
             <li>
+            <motion.div
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true, amount: 0.5 }}
+                  transition={{ delay: 0.5, duration: 3, type: "spring" }}
+                  variants={{
+                    hidden: { opacity: 0, x: -150 },
+                    visible: { opacity: 1, x: 0 },
+                  }}
+                >
               <a
                 href="#"
                 className="block py-2  h-8 pl-3 pr-4 text-gray-300 bg-violet-400 border-b-2 border-violet-400 hover:text-purple-300 rounded md:bg-transparent   md:p-0 "
@@ -46,28 +72,62 @@ function Navbar() {
               >
                 Home
               </a>
+              </motion.div>
             </li>
             <li>
+            <motion.div
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true, amount: 0.5 }}
+                  transition={{ delay: 0.6, duration:2, type: "spring" }}
+                  variants={{
+                    hidden: { opacity: 0, x: -180 },
+                    visible: { opacity: 1, x: 0 },
+                  }}
+                >
               <a
                 href="#"
-                className="blockpy-2 pl-3 pr-4 text-gray-300  bg-violet-400 hover:text-purple-300 rounded md:bg-transparent   md:p-0">
+                className="block py-2 pl-3 pr-4 text-gray-300  bg-violet-400 hover:text-purple-900 rounded md:bg-transparent   md:p-0">
                 Brands
               </a>
+              </motion.div>
             </li>
             
             <li>
+            <motion.div
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true, amount: 0.5 }}
+                  transition={{ delay: 0.6, duration: 2, type: "spring" }}
+                  variants={{
+                    hidden: { opacity: 0, x: 180 },
+                    visible: { opacity: 1, x: 0 },
+                  }}
+                >
               <a
                 href="#"
                 className="block py-2 pl-3 pr-4 text-gray-300 bg-violet-400 hover:text-purple-300 rounded  md:bg-transparent   md:p-0">
                 Influencers
               </a>
+              </motion.div>
             </li>
             <li>
+            <motion.div
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true, amount: 0.5 }}
+                  transition={{ delay:0.5, duration: 3, type: "spring" }}
+                  variants={{
+                    hidden: { opacity: 0, x: 150 },
+                    visible: { opacity: 1, x: 0 },
+                  }}
+                >
               <a
                 href="#"
                 className="block py-2 pl-3 pr-4 text-gray-300 bg-violet-400 hover:text-purple-300 rounded md:bg-transparent   md:p-0">
                 Contact Us
               </a>
+              </motion.div>
             </li>
           </ul>
         </div>
