@@ -85,7 +85,7 @@ const Feature = () => {
                 </div>
               </li>
             </ul>
-            <button className="rounded-xl border shadow-md shadow-violet-700 hover:text-white text-black bg-violet-500 border-violet-500 w-[150px]  font-semibold my-6 mx-auto py-3 ">
+            <button className="rounded-xl border shadow-md shadow-violet-700 hover:text-black text-white bg-violet-500 border-violet-500 w-[150px]  font-semibold my-6 mx-auto py-3 ">
               {" "}
               Learn More!
             </button>
@@ -124,7 +124,7 @@ const Feature = () => {
                 </div>
               </li>
             </ul>
-            <button className="rounded-xl border shadow-md shadow-violet-700 hover:text-white text-black bg-violet-500 border-violet-500 w-[150px] font-semibold my-6 mx-auto py-3 ">
+            <button className="rounded-xl border shadow-md shadow-violet-700 hover:text-black text-white bg-violet-500 border-violet-500 w-[150px] font-semibold my-6 mx-auto py-3 ">
               {" "}
               Learn More!
             </button>
@@ -165,7 +165,7 @@ const Feature = () => {
               </li>
             </ul>
 
-            <button className="rounded-xl border shadow-md shadow-violet-700 hover:text-white text-black bg-violet-500 border-violet-500 w-[150px] font-semibold my-6 mx-auto py-3 ">
+            <button className="rounded-xl border shadow-md shadow-violet-700 hover:text-black text-white bg-violet-500 border-violet-500 w-[150px] font-semibold my-6 mx-auto py-3 ">
               {" "}
               Learn More!
             </button>
