@@ -154,7 +154,7 @@ const Feature = () => {
               <li className="flex items-center space-x-3">
                 {/* Icon */}
 
-                <div className=" text-gray-400 px-2.5 text-center">
+                <div className=" text-gray-400 px-4 text-center">
                   Our network includes all ages, ethnicities, geographic
                   locations, and all areas of expertise. We verify the
                   influencer that can engage the right audience with the right
