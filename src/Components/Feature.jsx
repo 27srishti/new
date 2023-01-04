@@ -39,7 +39,7 @@ const Feature = () => {
                     visible: { opacity: 1, x: 0 },
                   }}
                 >
-          <p className="mb-5 font-light py-5 text-gray-500 md:text-md text-base dark:text-gray-400">
+          <p className="mb-5 font-light  text-gray-500 md:text-md text-base dark:text-gray-400">
             Influencer Marketing is not a straightforward marketing strategy. We
             combine strategic planning with a focusing in creating a meaningful
             relationship between you and your target audience. Our team of
