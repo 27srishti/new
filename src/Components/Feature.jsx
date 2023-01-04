@@ -8,7 +8,7 @@ import { motion, useAnimation } from "framer-motion";
 import { Transition } from "@headlessui/react";
 const Feature = () => {
   return (
-    <section className=" relative border-t-4 border-violet-400 bg-gray-900 ">
+    <section className=" relative border-t-4 border-violet-400 bg-gray-900  pb-8">
       <img src={Background} className=" invisible sm: visible md:visible bg-gray-100 h-full w-full bg-local absolute opacity-[0.15] "></img>
       <div className="py-8 px-4 mx-auto max-w-screen-xl font-Poppins lg:py-16 lg:px-16  rounded-md">
         <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
@@ -22,7 +22,7 @@ const Feature = () => {
                     visible: { opacity: 1, y: 0 },
                   }}
                 >
-          <h2 className="mb-2 text-3xl md:text-5xl sm:text-4xl tracking-tight  font-medium text-gray-900 dark:text-white">
+          <h2 className="mb-2 py-2 text-3xl md:text-5xl sm:text-4xl tracking-tight  font-medium text-gray-900 dark:text-white">
             We bring great results through
             <p className="text-violet-400 md:py-6 font-extrabold">
               MEANINGFUL{" "}
@@ -39,7 +39,7 @@ const Feature = () => {
                     visible: { opacity: 1, x: 0 },
                   }}
                 >
-          <p className="mb-5 font-light text-gray-500 md:text-md text-base dark:text-gray-400">
+          <p className="mb-5 font-light py-5 text-gray-500 md:text-md text-base dark:text-gray-400">
             Influencer Marketing is not a straightforward marketing strategy. We
             combine strategic planning with a focusing in creating a meaningful
             relationship between you and your target audience. Our team of
