@@ -16,7 +16,7 @@ export const Hero = () => {
                     visible: { opacity: 1, x: 0 },
                   }}
                 >
-        <p className="text-white  pt-28 ">
+        <p className="text-white  pt-28  ">
           ZERO fees from Influencers until you earn your first 1 Million
         </p>{" "}</motion.div>
         <div className="text-white md:text-6xl  sm:text-5xl text-2xl font-bold font-Poppins md:py-6">
