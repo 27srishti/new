@@ -56,7 +56,7 @@ const Feature = () => {
                   initial="hidden"
                   whileInView="visible"
                   viewport={{ once: true, amount: 0.5 }}
-                  transition={{ delay: 0.5, duration: 2, type: "spring" }}
+                  transition={{ delay: 0.1, duration: 2, type: "spring" }}
                   variants={{
                     hidden: { opacity: 0, y: 60 },
                     visible: { opacity: 1, y: 0 },
@@ -96,7 +96,7 @@ const Feature = () => {
                   initial="hidden"
                   whileInView="visible"
                   viewport={{ once: true, amount: 0.5 }}
-                  transition={{ delay: 1, duration: 2, type: "spring" }}
+                  transition={{ delay: 0.5, duration: 2, type: "spring" }}
                   variants={{
                     hidden: { opacity: 0, y: 70 },
                     visible: { opacity: 1, y: 0 },
@@ -135,7 +135,7 @@ const Feature = () => {
                   initial="hidden"
                   whileInView="visible"
                   viewport={{ once: true, amount: 0.5 }}
-                  transition={{ delay: 1.5, duration: 2, type: "spring" }}
+                  transition={{ delay: 1, duration: 2, type: "spring" }}
                   variants={{
                     hidden: { opacity: 0, y: 90 },
                     visible: { opacity: 1, y: 0 },

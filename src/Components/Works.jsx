@@ -152,7 +152,7 @@ const Works = () => {
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, amount: 0.5 }}
-                transition={{ delay: 0.7, duration: 2.5, type: "spring" }}
+                transition={{ delay: 0.6, duration: 2.5, type: "spring" }}
                 variants={{
                   hidden: { opacity: 0, y: 150 },
                   visible: { opacity: 1, y: 0 },
