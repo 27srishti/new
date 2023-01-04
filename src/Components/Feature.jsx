@@ -22,7 +22,7 @@ const Feature = () => {
                     visible: { opacity: 1, y: 0 },
                   }}
                 >
-          <h2 className="mb-2 py-2 text-3xl md:text-5xl sm:text-4xl tracking-tight  font-medium text-gray-900 dark:text-white">
+          <h2 className=" py-2 text-3xl md:text-5xl sm:text-4xl tracking-tight  font-medium text-gray-900 dark:text-white">
             We bring great results through
             <p className="text-violet-400 md:py-6 font-extrabold">
               MEANINGFUL{" "}
@@ -62,7 +62,7 @@ const Feature = () => {
                     visible: { opacity: 1, y: 0 },
                   }}
                 >
-          <div className="flex flex-col  p-6 mx-auto max-w-lg text-center text-gray-900  rounded-lg border  shadow border-violet-300 xl:p-8 bg-black  text-white  shadow-md shadow-violet-600 ">
+          <div className="flex flex-col  p-6 mx-auto max-w-lg text-center text-gray-900  rounded-lg border  shadow border-violet-300 xl:p-8 bg-black bg-opacity-50  text-white  shadow-md shadow-violet-600 ">
             
             <p className="font-Medium py-5 text-2xl sm:text-3xl md:text-2xl text-white">
               The Number of Followers Matters, Influencer Does Too!
@@ -85,7 +85,7 @@ const Feature = () => {
                 </div>
               </li>
             </ul>
-            <button className="rounded-xl border shadow-md shadow-violet-700 hover:text-white text-black bg-violet-500 border-violet-500 w-[150px] font-semibold my-6 mx-auto py-3 ">
+            <button className="rounded-xl border shadow-md shadow-violet-700 hover:text-white text-black bg-violet-500 border-violet-500 w-[150px]  font-semibold my-6 mx-auto py-3 ">
               {" "}
               Learn More!
             </button>
@@ -102,7 +102,7 @@ const Feature = () => {
                     visible: { opacity: 1, y: 0 },
                   }}
                 >
-          <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900  rounded-lg border  shadow border-violet-300 xl:p-8 bg-black  text-white  shadow-md shadow-violet-600 ">
+          <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900  rounded-lg border  shadow border-violet-300 xl:p-8 bg-black  text-white bg-black bg-opacity-50 shadow-md shadow-violet-600 ">
             <p className="font-medium py-5 text-2xl sm:text-3xl md:text-2xl text-white">
               We Care For Our Influencers More Than Anyone
             </p>
@@ -141,7 +141,7 @@ const Feature = () => {
                     visible: { opacity: 1, y: 0 },
                   }}
                 >
-          <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900  rounded-lg border  shadow border-violet-300 xl:p-8 bg-black  text-white  shadow-md shadow-violet-600 ">
+          <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900  rounded-lg border  shadow border-violet-300 xl:p-8 bg-black  text-white bg-black bg-opacity-50 shadow-md shadow-violet-600 ">
             <p className="font-medium py-5 text-2xl sm:text-3xl md:text-2xl text-white">
               The Value Of Working With Us, With Right Campaign Goals &
               KPI
