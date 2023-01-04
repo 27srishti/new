@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <nav className=" border-gray-700 px-2   py-6 ">
       <div className="container flex flex-wrap  items-center justify-between mx-auto px-5 ">
-      <motion.div
+      {/* <motion.div
                   initial="hidden"
                   whileInView="visible"
                   viewport={{ once: true, amount: 0.5 }}
@@ -15,7 +15,7 @@ function Navbar() {
                     hidden: { opacity: 0, x: -180 },
                     visible: { opacity: 1, x: 0 },
                   }}
-                >
+                > */}
         <a href="" className="flex items-center">
           {/* <img
             src="https://jjjflowbite.com/docs/images/logo.svg"
@@ -29,7 +29,7 @@ function Navbar() {
           </span>
           
         </a>
-        </motion.div>
+       
         <button
           data-collapse-toggle="navbar-default"
           type="button"
