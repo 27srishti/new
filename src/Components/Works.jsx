@@ -3,7 +3,7 @@ import Image4 from "../Images/Image4.png"
 const Works = () => {
   return (
     <div>
-    <div  className="bg-gray-100 ">
+    <div  className="bg-gray-100  ">
       <div className="py-16 px-14 mx-auto max-w-screen-xl font-Poppins lg:py-20 lg:px-16  sm:px-14 ">
         <div className="mx-auto md:px-7  text-left mb-8  lg:mb-12">
           <h2 className="mb-2 text-3xl md:text-5xl  sm:text-4xl tracking-tight font-medium text-gray-900">
@@ -21,11 +21,15 @@ const Works = () => {
             successful as an influencer, we don’t charge you until you succeed.
             Unlike other agencies, we put your interest above our own
           </p>
+          <div></div>
+          
         </div>
         <section className="text-gray-600 body-font">
           <div className="container px-5 py-5 mx-auto flex flex-wrap">
             <div className="flex flex-wrap w-full">
+              
               <div className="lg:w-2/5 md:w-1/2 md:pr-10 md:py-6">
+                
                 <div className="flex relative pb-12">
                   <div className="h-full w-10 absolute inset-0 flex items-center justify-center">
                     <div className="h-full w-1 bg-gray-200 pointer-events-none" />
@@ -110,7 +114,7 @@ const Works = () => {
                 </div>
               </div>
               <img
-                className="lg:w-3/5 md:w-1/2 object-cover object-center rounded-lg md:mt-0 mt-12"
+                className="lg:w-3/5 md:w-1/2  object-cover object-center rounded-lg md:mt-0 mt-12"
                 src={Image4}
                 alt="step"
               />

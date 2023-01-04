@@ -6,7 +6,7 @@ import Background from "../Images/Bg.jpg"
 const Feature = () => {
   return (
     <section className=" relative border-t-4 border-violet-400 bg-gray-900 ">
-      <img src={Background} className="bg-gray-100 h-full w-full bg-local absolute opacity-20 "></img>
+      <img src={Background} className=" invisible sm: visible md:visible bg-gray-100 h-full w-full bg-local absolute opacity-[0.15] "></img>
       <div className="py-8 px-4 mx-auto max-w-screen-xl font-Poppins lg:py-16 lg:px-16  rounded-md">
         <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
           

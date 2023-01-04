@@ -3,7 +3,7 @@ import React from "react";
 function Navbar() {
   return (
     <nav className=" border-gray-700 px-2   py-6 ">
-      <div className="container flex flex-wrap  items-center justify-between mx-auto px-14 ">
+      <div className="container flex flex-wrap  items-center justify-between mx-auto px-5 ">
         <a href="" className="flex items-center">
           {/* <img
             src="https://jjjflowbite.com/docs/images/logo.svg"
