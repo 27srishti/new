@@ -22,7 +22,7 @@ const Works = () => {
                 ><h2 className="mb-2 text-3xl md:text-5xl  sm:text-4xl tracking-tight font-medium text-gray-900">
             ZERO fees from Influencers
             <p className="text-pink-600 md:py-3 font-extrabold">
-              until you earn{" "}
+              Until you earn{" "}
               <span className="text-black font-medium">
                 your first 1 Million
               </span>{" "}

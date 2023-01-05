@@ -69,7 +69,7 @@ export const Hero = () => {
           We help both Influencers and Brands to stay on top of their game.
         </p></motion.div>
 
-        {/* <button className="rounded-xl border  hover:text-pink-600  border-pink-600 w-[150px] font-medium my-10 mx-auto py-3 ">
+        {/* <button className="rounded-xl border  hover:text-violet-200  border-violet-500 w-[150px] font-medium my-10 mx-auto py-3 ">
           {" "}
           Get Started
         </button> */}
@@ -85,7 +85,7 @@ export const Hero = () => {
                 >
         <a
           href="#_"
-          class="relative inline-flex items-center justify-start inline-block px-5 py-3 overflow-hidden font-bold rounded-full group rounded-xl border  hover:text-pink-600  border-pink-500 w-[150px] font-medium my-10 mx-auto py-3"
+          class="relative inline-flex items-center justify-start inline-block px-5 py-3 overflow-hidden font-bold rounded-full group rounded-xl border  hover:text-violet-200  border-pink-500 w-[150px] font-medium my-10 mx-auto py-3"
         >
           <span class="w-32 h-32 rotate-45 translate-x-12 -translate-y-2 absolute left-0 top-0 bg-pink-600 opacity-[3%]"></span>
           <span class="absolute top-0 left-0 w-48 h-48 -mt-1 transition-all duration-500 ease-in-out rotate-45 -translate-x-56 -translate-y-24 bg-white opacity-100 group-hover:-translate-x-8"></span>
