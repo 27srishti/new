@@ -4,7 +4,7 @@ import { motion, useAnimation } from "framer-motion";
 import { Transition } from "@headlessui/react";
 function Navbar() {
   return (
-    <nav className=" border-gray-700 px-2   py-6 ">
+    <nav className=" border-gray-700 px-2  py-6 ">
       <div className="container flex flex-wrap  items-center justify-between mx-auto px-5 ">
       <motion.div
                   initial="hidden"
@@ -24,7 +24,7 @@ function Navbar() {
           /> */}
             
 
-          <span className="self-center text-4xl font-bold whitespace-nowrap text-violet-400">
+          <span className="self-center text-4xl font-bold whitespace-nowrap text-pink-600">
            Logo
           </span>
           
@@ -67,7 +67,7 @@ function Navbar() {
                 >
               <a
                 href="#"
-                className="block py-2  h-8 pl-3 pr-4 text-gray-300 bg-violet-400 border-b-2 border-violet-400 hover:text-purple-300 rounded md:bg-transparent   md:p-0 "
+                className="block py-2  h-8 pl-3 pr-4 text-gray-300  border-b-2 border-pink-600 hover:text-purple-300 rounded    md:p-0 "
                 aria-current="page" 
               >
                 Home
@@ -87,7 +87,7 @@ function Navbar() {
                 >
               <a
                 href="#"
-                className="block py-2 pl-3 pr-4 text-gray-300  bg-violet-400 hover:text-purple-900 rounded md:bg-transparent   md:p-0">
+                className="block py-2 pl-3 pr-4 text-gray-300  bg-pink-600 hover:text-purple-900 rounded md:bg-transparent   md:p-0">
                 Brands
               </a>
               </motion.div>
@@ -106,7 +106,7 @@ function Navbar() {
                 >
               <a
                 href="#"
-                className="block py-2 pl-3 pr-4 text-gray-300 bg-violet-400 hover:text-purple-300 rounded  md:bg-transparent   md:p-0">
+                className="block py-2 pl-3 pr-4 text-gray-300 bg-pink-600 hover:text-purple-300 rounded  md:bg-transparent   md:p-0">
                 Influencers
               </a>
               </motion.div>
@@ -124,7 +124,7 @@ function Navbar() {
                 >
               <a
                 href="#"
-                className="block py-2 pl-3 pr-4 text-gray-300 bg-violet-400 hover:text-purple-300 rounded md:bg-transparent   md:p-0">
+                className="block py-2 pl-3 pr-4 text-gray-300 bg-pink-600 hover:text-purple-300 rounded md:bg-transparent   md:p-0">
                 Contact Us
               </a>
               </motion.div>

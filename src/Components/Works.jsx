@@ -21,7 +21,7 @@ const Works = () => {
                   }}
                 ><h2 className="mb-2 text-3xl md:text-5xl  sm:text-4xl tracking-tight font-medium text-gray-900">
             ZERO fees from Influencers
-            <p className="text-violet-500 md:py-3 font-extrabold">
+            <p className="text-pink-600 md:py-3 font-extrabold">
               until you earn{" "}
               <span className="text-black font-medium">
                 your first 1 Million
@@ -58,7 +58,7 @@ const Works = () => {
                   <div className="h-full w-10 absolute inset-0 flex items-center justify-center">
                     <div className="h-full w-1 bg-gray-200 pointer-events-none" />
                   </div>
-                  <div className="flex-shrink-0 w-10 h-10 rounded-full bg-violet-500 inline-flex items-center justify-center text-white relative z-10">
+                  <div className="flex-shrink-0 w-10 h-10 rounded-full bg-pink-600 inline-flex items-center justify-center text-white relative z-10">
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -97,7 +97,7 @@ const Works = () => {
                   <div className="h-full w-10 absolute inset-0 flex items-center justify-center">
                     <div className="h-full w-1 bg-gray-200 pointer-events-none" />
                   </div>
-                  <div className="flex-shrink-0 w-10 h-10 rounded-full bg-violet-500 inline-flex items-center justify-center text-white relative z-10">
+                  <div className="flex-shrink-0 w-10 h-10 rounded-full bg-pink-600 inline-flex items-center justify-center text-white relative z-10">
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -134,7 +134,7 @@ const Works = () => {
                   <div className="h-full w-10 absolute inset-0 flex items-center justify-center">
                     <div className="h-full w-1 bg-gray-200 pointer-events-none" />
                   </div>
-                  <div className="flex-shrink-0 w-10 h-10 rounded-full bg-violet-500 inline-flex items-center justify-center text-white relative z-10">
+                  <div className="flex-shrink-0 w-10 h-10 rounded-full bg-pink-600 inline-flex items-center justify-center text-white relative z-10">
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -184,11 +184,11 @@ const Works = () => {
       <div className="py-16 px-14 mx-auto max-w-screen-xl font-Poppins lg:py-20 lg:px-16   sm:px-14  ">
       
         <div className="mx-auto max-w-screen-lg text-center mb-8   lg:mb-12">
-           <h2 className="mb-2 text-xl sm:text-2xl md:text-4xl  p-7   sm:p-10 md:p-14  bg-gradient-to-tr from-black to-violet-500 sm:text-4xl rounded-xl tracking-tight font-medium shadow-lg shadow-gray-700 text-white">
+           <h2 className="mb-2 text-xl sm:text-2xl md:text-4xl  p-7   sm:p-10 md:p-14  bg-gradient-to-r from-blue-900 to-pink-900 sm:text-4xl rounded-xl tracking-tight font-medium shadow-lg shadow-gray-700 text-white">
            GET PAID TO TELL CAPTIVATING STORIES FOR AWESOME BRANDS
           </h2>
 
-          <button className="rounded-xl border text-white hover:text-black bg-violet-600 border-violet-500 w-[150px] font-bold my-10 mx-auto py-3 shadow-md shadow-violet-900">
+          <button className="rounded-xl border text-white hover:text-black bg-pink-600 border-pink-600 w-[150px] font-bold my-10 mx-auto py-3 shadow-md shadow-pink-800">
             {" "}
             Apply Now !
           </button>
