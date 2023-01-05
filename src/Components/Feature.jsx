@@ -22,13 +22,13 @@ const Feature = () => {
                     visible: { opacity: 1, y: 0 },
                   }}
                 >
-          <h2 className=" py-2 text-3xl md:text-5xl sm:text-4xl tracking-tight  font-medium text-gray-900 dark:text-white">
+          {/* <h2 className=" py-2 text-3xl md:text-5xl sm:text-4xl tracking-tight  font-medium text-gray-900 dark:text-white">
             We bring great results through
             <p className="text-pink-600 md:py-6 font-extrabold">
               MEANINGFUL{" "}
               <span className="text-white font-medium">Advertising</span>{" "}
             </p>
-          </h2></motion.div>
+          </h2></motion.div> */}
           <motion.div
                   initial="hidden"
                   whileInView="visible"
